@@ -1,0 +1,86 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+
+<head>
+  <title>CALCULADORA HTML by di3boss</title>
+
+  <meta charset="utf-8" />
+  <meta name="autor" content="Diego F. Bermúdez">
+  <meta name="keywords" content="calculator,html,css,practice,project,ISDI,coders">
+
+  <link type="text/css" href="./style.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Michroma&family=Share+Tech+Mono&family=VT323&display=swap"
+    rel="stylesheet">
+
+  <script type="text/javascript" src="./calculadora.js" defer></script>
+
+</head>
+
+<body>
+  <header>
+    <h1 class="title-highlight">HTML</h1>
+    <h1>calculator</h1>
+  </header>
+
+  <main>
+    <section class="calculator">
+      <table>
+        <thead>
+        </thead>
+
+        <tbody>
+          <tr>
+            <th colspan="4" class="trademark">CASIO</th>
+          </tr>
+          <tr>
+            <td colspan="4" id="display" class="calculator-display">
+              <span id="on">On</span>
+              <span id="display-numbers"></span>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2" class="author">di3boss</td>
+            <td colspan="2" class="model">coders-Q123</td>
+          </tr>
+          <tr>
+            <td> <button value="c" id="all-clear" class="top-buttons">C</button> </td>
+            <td> <button value="√" id="square-root" class="top-buttons">√</button> </td>
+            <td> <button value="÷" id="divide" class="operation-buttons">÷</button> </td>
+            <td> <button value="x" id="multiplicate" class="operation-buttons">x</button> </td>
+          </tr>
+          <tr>
+            <td> <button value="7" id="7" class="number-buttons">7</button> </td>
+            <td> <button value="8" id="8" class="number-buttons">8</button> </td>
+            <td> <button value="9" id="9" class="number-buttons">9</button> </td>
+            <td> <button value="-" id="substract" class="operation-buttons">-</button> </td>
+          </tr>
+          <tr>
+            <td> <button value="4" id="4" class="number-buttons">4</button> </td>
+            <td> <button value="5" id="5" class="number-buttons">5</button> </td>
+            <td> <button value="6" id="6" class="number-buttons">6</button> </td>
+            <td> <button value="+" id="add" class="operation-buttons">+</button> </td>
+          </tr>
+          <tr>
+            <td> <button value="1" id="1" class="number-buttons">1</button> </td>
+            <td> <button value="2" id="2" class="number-buttons">2</button> </td>
+            <td> <button value="3" id="3" class="number-buttons">3</button> </td>
+            <td rowspan="2"> <button value="=" id="equal" class="equal-button">=</button></td>
+          </tr>
+          <tr>
+            <td colspan="2"> <button value="0" id="0" class="number-buttons">0</button> </td>
+            <td> <button value="." id="decimal" class="number-buttons">·</button> </td>
+            </td>
+
+          </tr>
+
+        </tbody>
+      </table>
+    </section>
+    <footer>
+      <p>Made only with HTML+CSS+JS, without any images
+        <br>by Diego F. Bermúdez
+      </p>
+    </footer>
+</body>
+
+</html>
